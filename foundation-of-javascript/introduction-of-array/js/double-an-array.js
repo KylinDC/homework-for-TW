@@ -7,4 +7,5 @@ function doubleAnArray(arr) {
   }
   return doubledArray;
 }
+
 console.log(doubleAnArray(a));
