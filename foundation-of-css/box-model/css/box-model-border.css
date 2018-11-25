@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid gray;
+}
+.title {
+    border: 1px solid gray;
+    background: orange;
+    font-family: serif;
+}
+a {
+    color: blue;
+}
+.context p {
+    text-indent: 1em;
+    margin: 0;
+    line-height: 175%;
+    font-family: serif;
+}
