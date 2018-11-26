@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.rightNavigation {
+  background: red;
+  color: white;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 200px;
+}
+
+.leftInput {
+  background: yellow;
+  color: black;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 200px;
+}

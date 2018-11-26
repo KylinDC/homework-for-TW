@@ -1,0 +1,12 @@
+#container {
+    margin: 30px 0 30px 50px;
+    width: 440px;
+}
+.photo {
+    padding: 20px;
+    background: red;
+}
+img {
+    width: 400px;
+    height: 400px;
+}

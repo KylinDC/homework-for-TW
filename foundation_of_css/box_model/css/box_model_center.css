@@ -1,0 +1,25 @@
+.container {
+  /* width: 370px; */
+  border: 1px solid black;
+  text-align: center;
+}
+
+.box {
+  /* background: black; */
+  height: 200px;
+  width: 400px;
+  margin: 10px;
+  border: 5px solid black;
+  /* display: inline-block; */
+}
+
+.bigBox .box {
+  background: black;
+  display: inline-block;
+}
+
+#box4 {
+  background: red;
+  display: inline-block;
+  text-align: center;
+}
