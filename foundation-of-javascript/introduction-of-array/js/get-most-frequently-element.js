@@ -9,7 +9,7 @@ function getMostFrequentElement(arr) {
 function getMapOfElementFrequency(arr) {
   let mapOfElementFrequency = new Map();
   for (let element of arr) {
-    if (mapOfElementFrequency.get(element)) {
+    if (mapOfElementFrequency.has(element)) {
       mapOfElementFrequency.set(element, mapOfElementFrequency.get(element) + 1);
     }
     else {
