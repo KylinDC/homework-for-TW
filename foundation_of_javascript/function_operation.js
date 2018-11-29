@@ -1,15 +1,13 @@
 function reverseString(message) {
-  // wirte your code here
   let splitedString = message.split('');
   let reversedArray = splitedString.reverse();
   let joinedArray = reversedArray.join('');
   return joinedArray;
 }
-reverseString('hello'); // should return 'olleh'
+reverseString('hello');
 
 
 function palindrome(message) {
-  // wirte your code here
   if (message === reverseString(message)) {
     return true;
   }
@@ -17,24 +15,22 @@ function palindrome(message) {
     return false;
   }
 }
-palindrome('hello'); // should return false
-palindrome('abcba'); // should return true
+palindrome('hello');
+palindrome('abcba');
 
 
 function alphabetSort(message) {
-  // wirte your code here
   let splitedString = message.split('');
   let sortedArray = splitedString.sort();
   let joinedArray = sortedArray.join('');
   return joinedArray;
 }
-alphabetSort('hello'); // should return 'ehllo'
+alphabetSort('hello');
 
 
 function countWords(message) {
-  // wirte your code here
   let splitedString = message.split(' ');
   let arrayLength = splitedString.length;
   return arrayLength;
 }
-countWords('Good morning, I love JavaScript.'); // should return 5
+countWords('Good morning, I love JavaScript.');
