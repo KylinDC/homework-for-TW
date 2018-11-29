@@ -8,5 +8,5 @@ for (let i = 0; i <= 20; i++) {
 }
 
 function isOdd(num) {
-  return num % 2;
+  return num % 2 !== 0;
 }
