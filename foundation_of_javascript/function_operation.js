@@ -8,12 +8,7 @@ reverseString('hello');
 
 
 function palindrome(message) {
-  if (message === reverseString(message)) {
-    return true;
-  }
-  else {
-    return false;
-  }
+  return (message === reverseString(message));
 }
 palindrome('hello');
 palindrome('abcba');
