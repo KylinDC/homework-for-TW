@@ -25,7 +25,6 @@ alphabetSort('hello');
 
 function countWords(message) {
   let splitedString = message.split(' ');
-  let arrayLength = splitedString.length;
-  return arrayLength;
+  return splitedString.length;
 }
 countWords('Good morning, I love JavaScript.');
