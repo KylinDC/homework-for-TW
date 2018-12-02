@@ -11,7 +11,7 @@ function showLoginResult() {
   }
   else {
     status.innerHTML = '账户或密码错误，请重新再试';
-    resetInput(account, password)(account, password);
+    resetInput(account, password);
   }
 }
 
@@ -19,7 +19,7 @@ function isLoginSuccess(account, password) {
   return account.value === '123' && password.value === '123';
 }
 
-function resetInput(account, password)(account, password) {
+function resetInput(account, password) {
   account.value = '';
   password.value = '';
 }
