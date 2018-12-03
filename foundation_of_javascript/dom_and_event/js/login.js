@@ -8,8 +8,7 @@ function showLoginResult() {
   let status = document.getElementById('status');
   if (isLoginSuccess(account, password)) {
     status.innerHTML = '登陆成功，正在跳转...';
-  }
-  else {
+  } else {
     status.innerHTML = '账户或密码错误，请重新再试';
     resetInput(account, password);
   }
